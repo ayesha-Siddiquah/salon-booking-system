@@ -7,6 +7,8 @@ import Contact from './pages/Contact.jsx';
 import Aboutus from './pages/Aboutus.jsx';
 import Hairprices from './pages/Hairprices.jsx';
 import BookingPage from "./pages/Booking.jsx"; // the booking page you created
+import Academy from './pages/Academy.jsx';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
         <Route path="/hairprices" element={<Layout><Hairprices /></Layout>} />
         <Route path="/book" element={<Layout><BookingPage /></Layout>} />
+        <Route path="/academy" element={<Layout><Academy /></Layout>} />
       </Routes>
     </Router>
   );

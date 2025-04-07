@@ -6,7 +6,7 @@ const Footer = () => {
   const instagramLink = 'https://www.instagram.com/yourpage';
 
   return (
-    <footer className="bg-gray-800 text-white">
+    <footer className="bg-black text-white">
       {/* Upper Content Section */}
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
@@ -58,7 +58,7 @@ const Footer = () => {
       <hr className="border-gray-700" />
 
       {/* Copyright Section */}
-      <div className="bg-gray-900 py-6">
+      <div className="bg-black py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm text-gray-400">
             © {new Date().getFullYear()} Beauty Mark Salon & Studio. All rights reserved.
