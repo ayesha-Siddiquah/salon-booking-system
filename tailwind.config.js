@@ -9,6 +9,11 @@ export default {
       fontFamily: {
         greatvibes: ['Great Vibes', 'cursive'], // Add the custom font
       },
+      colors: {
+        customPurple: '#5A3376', // Purple colour text for hero page(On Home page) 
+      },
+      
+
 
       // spacing: {
       //   '15': '3.75rem', // Add mt-15, you can adjust the value as needed

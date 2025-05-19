@@ -13,24 +13,18 @@ const AboutUs = () => {
         className=" bg-[#d9a79d] text-black py-4 fixed top-40 left-0 w-full" 
         style={{ zIndex: 40 }}
       >
-        <Marquee speed={100} gradient={false} style={{ margin: 0, padding: 0 }}>
-          <p className="text-[35px]" style={{ margin: 0, padding: 0 }}>
-            ✨ Welcome to Beauty Mark Salon & Studio! ✨ &nbsp;&nbsp;&nbsp;
-            📞 Call us at (619) 255-2591 to book your appointment! 📞 &nbsp;&nbsp;&nbsp;
-            💖 Follow us on Instagram @beautymarksalon for updates and promotions! 💖
-          </p>
-        </Marquee>
+        
       </div>
 
       {/* Page Content */}
-      <div className="pt-48 p-8">
+      <div className="pt-48 bg-[#5A3376] p-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-16">
           <div>
-            <h2 className="text-4xl font-bold mb-8 text-center">Our Mission</h2>
-            <p className="text-[23px] text-gray-700 leading-relaxed mb-6">
+            <h2 className="text-4xl font-bold mb-8 text-black text-center">Our Mission</h2>
+            <p className="text-[23px] text-white text-gray-700 leading-relaxed mb-6">
               At Beauty Mark Salon & Studio, we are dedicated to providing a luxurious and personalized experience for every client. Our mission is to create a welcoming space where you can relax, rejuvenate, and leave feeling confident and beautiful. We are committed to using high-quality products and techniques to ensure your satisfaction and to help you look and feel your best.
             </p>
-            <p className="text-[23px] text-gray-700 leading-relaxed">
+            <p className="text-[23px] text-white leading-relaxed">
               We believe that beauty is more than skin deep. It’s about feeling good from the inside out. That’s why we offer complimentary beverages and a relaxing atmosphere to make your visit truly special.
             </p>
 
@@ -40,12 +34,12 @@ const AboutUs = () => {
                 Welcome to Beauty Mark Salon & Studio, Beautiful!
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <ul className="space-y-4 text-[23px] text-gray-700 list-disc list-inside">
+                <ul className="space-y-4 text-[23px] text-white list-disc list-inside">
                   <li>Professional trained and licensed technicians</li>
                   <li>Love is love</li>
                   <li>Top-quality service</li>
                 </ul>
-                <ul className="space-y-4 text-[23px] text-gray-700 list-disc list-inside">
+                <ul className="space-y-4 text-[23px] text-white list-disc list-inside">
                   <li>Highest standards of cleanliness and care</li>
                   <li>Check your attitude at the door</li>
                   <li>Complimentary beverages!</li>

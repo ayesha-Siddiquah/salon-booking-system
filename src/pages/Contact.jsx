@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -68,14 +67,15 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-8 bg-[#f5f1eb] min-h-screen">
+    <div className=" bg-[#A9A9A9] p-8 min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
       <p className="text-center mb-8">Get in touch with us for bookings and inquiries.</p>
 
-      <div className="max-w-4xl mx-auto ">
+      <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Contact Information with Thick Border */}
-          <div className="border-4 border-gray-800 p-6 rounded-lg bg-[#f5f1eb] shadow-lg">
+          
+          {/* Contact Information */}
+          <div className="border-4 border-gray-800 p-6 rounded-lg bg-[#f5f1eb] shadow-lg"> 
             <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
             <p className="mb-4">
               Please book the appointments online by clicking on the Book Now option at the top of our website. Phone bookings are not encouraged.
@@ -97,6 +97,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="border-4 border-gray-800 p-6 rounded-lg bg-[#f5f1eb] shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Send Us a Message</h2>
+
             <form onSubmit={handleSubmit}>
               {/* Name Field */}
               <div className="mb-4">
@@ -169,6 +170,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
+
         </div>
       </div>
     </div>
