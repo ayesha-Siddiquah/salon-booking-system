@@ -219,7 +219,7 @@ app.get("/appointments", async (req, res) => {
     if (req.query.customer_id && mongoose.Types.ObjectId.isValid(req.query.customer_id)) {
       filter.customer_id = new mongoose.Types.ObjectId(req.query.customer_id);
     }
-    if (req.query.stylist_id && mongoose.Types.ObjectId.isValid(req.query.stylist_id)) {
+    if (req.query.stylist_id && mongoose.Types.ObjectId.isValid(req.query.stylist_id)) {z
       filter.stylist_id = new mongoose.Types.ObjectId(req.query.stylist_id);
     }
 
@@ -274,7 +274,7 @@ app.get("/customers", async (req, res) => {
 /* ==========================
    ✅ Server Start
 ============================= */
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on port ${PORT}`);
   console.log(`🌍 Visit: http://localhost:${PORT}`);

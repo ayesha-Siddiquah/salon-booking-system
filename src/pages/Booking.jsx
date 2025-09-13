@@ -47,6 +47,7 @@ const BookingPage = () => {
     };
 
     try {
+      console.log("🔗 Sending booking to:", bookingData);
       await axios.post("http://localhost:5002/appointments", bookingData);
       alert("✅ Appointment confirmed! Check your email and SMS.");
     } catch (error) {
